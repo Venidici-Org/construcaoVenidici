@@ -20,6 +20,7 @@ body:not(.loaded) main {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  will-change: transform;
 }
 .svg-container {
   position: relative;
@@ -111,6 +112,7 @@ main {
 .inicio {
   display: relative;
   width: 100%;
+  will-change: transform;
 }
 
 .group {
@@ -187,7 +189,7 @@ a {
 
   #jsContent2 {
     display: block;
-    /* width: ; */
+    will-change: transform;
   }
 
   .sociais2 {
